@@ -4,8 +4,7 @@
   export let item;
   
   function navigateToDetail(id) {
-    // TODO: Implement navigation
-    // goto(`/items/${id}`);
+    goto(`/items/${id}`);
   }
 </script>
 

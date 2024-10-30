@@ -14,9 +14,7 @@
   };
   
   function goBack() {
-    // TODO: Student needs to implement navigation back to home
-    // Uncomment and fix this:
-    // goto('/');
+    goto('/');  
   }
 </script>
 
@@ -25,7 +23,6 @@
     <h1>{item.title}</h1>
     <p>{item.description}</p>
     
-    <!-- TODO: Student needs to implement back navigation -->
     <button class="back-button" on:click={goBack}>
       Back to Home
     </button>
